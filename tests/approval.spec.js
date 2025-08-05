@@ -11,8 +11,8 @@ test('Approval by Internal Employee', async ({ page }) => {
     await page.getByRole('button', { name: 'Sign-in' }).click();
   
     await page.locator('div').filter({ hasText: /^Approval Queue$/ }).click();
-    await page.getByText('VISITORAPPOINTMENTPARTY').click();
-    await page.locator('div').filter({ hasText: /^APPOINTMENT$/ }).click();
+    // await page.getByText('VISITORAPPOINTMENTPARTY').click();
+    await page.getByText('APPOINTMENT', { exact: true }).click();
     await page.locator('(//tbody/tr)[2]/td[7]/button[1]').click();
     await page.getByText('Select Type').click();
     await page.getByText('Approve').click();

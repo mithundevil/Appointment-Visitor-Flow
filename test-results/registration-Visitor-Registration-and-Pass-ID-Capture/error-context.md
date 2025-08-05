@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation:
+    - img
+    - img
+    - img
+    - list:
+      - listitem:
+        - img
+        - text: Dashboard
+      - listitem:
+        - img
+        - text: Movement Register
+      - listitem:
+        - img
+        - text: E-Pass
+      - listitem:
+        - img
+        - text: Master Administration
+      - listitem:
+        - img
+        - text: Visitor Management
+      - listitem:
+        - img
+        - text: Reports
+      - listitem:
+        - img
+        - text: Activity Log
+- img
+- paragraph:
+  - link "Visitor Management":
+    - /url: /visitor-management
+  - text: /
+  - link "Appointment":
+    - /url: /visitor-management/appointment
+  - text: /Add
+- img
+- textbox "Search"
+- img
+- button "English":
+  - img
+  - text: English
+- img
+- img
+- link:
+  - /url: /settings
+  - img
+- paragraph: Visitor Master
+- paragraph
+- link:
+  - /url: /visitor-management/appointment/add
+- main:
+  - button:
+    - img
+  - heading "Add Appointment" [level=2]
+  - img
+  - paragraph: Personal Info
+  - img
+  - paragraph: Fix Appointment
+  - img
+  - paragraph: Get Approve
+  - img
+  - paragraph: Confirmation
+  - heading "Personal Info" [level=2]
+  - paragraph: Name
+  - paragraph: Rakesh
+  - paragraph: Mobile Number
+  - paragraph: "+919178465128"
+  - paragraph: Email
+  - paragraph: rakedfdf@gmail.com
+  - paragraph: Organization
+  - paragraph: party 1
+  - paragraph: Address
+  - paragraph: Kodaiiii
+  - paragraph: Date
+  - paragraph: 24/07/2025
+  - paragraph: Entry Time
+  - paragraph: 14:15
+  - paragraph: Exit Time
+  - paragraph: 14:40
+  - heading "Appointment Info" [level=2]
+  - paragraph: Department
+  - paragraph: Gate Security
+  - paragraph: Person to Meet
+  - paragraph: V. Aravind
+  - paragraph: Visitor Type
+  - paragraph: Meeting
+  - paragraph: Person Accompanying
+  - paragraph: "2"
+  - paragraph: Appointment Document
+  - paragraph:
+    - link "View Image":
+      - /url: blob:https://staging.gateease.in/744cb520-4a88-493b-96cb-39ce7d8783c9
+  - paragraph: Material Details
+  - paragraph: Raw material
+  - paragraph: Purpose
+  - paragraph: Meeting with HR for project
+  - paragraph: Vehicle Details
+  - paragraph: TN47S5645
+  - button "Previous":
+    - img
+    - text: Previous
+  - button "Submit"
+```

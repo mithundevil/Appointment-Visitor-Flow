@@ -41,8 +41,8 @@ test('Visitor Registration and Pass ID Capture', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Zip Code' }).fill('629801');
   await page.getByRole('textbox', { name: 'Organization' }).fill('party 1');
   await page.getByRole('textbox', { name: 'Appointment Date' }).fill('2025-07-24');
-  await page.getByRole('textbox', { name: 'Entry Time' }).fill('12:10');
-  await page.getByRole('textbox', { name: 'Exit Time' }).fill('12:15');
+  await page.getByRole('textbox', { name: 'Entry Time' }).fill('14:15');
+  await page.getByRole('textbox', { name: 'Exit Time' }).fill('14:40');
   await page.setInputFiles('input[type="file"]', pdfFilePath);
   await page.waitForTimeout(2000);
 
